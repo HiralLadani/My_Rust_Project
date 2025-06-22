@@ -46,7 +46,7 @@ fn main() {
         subjects: subjects.trim().parse().unwrap(),
     };
 
-    println!("\n--- Report Card ---");
+    println!("\n---Student Report Card ---");
     println!("Name: {}", student.name);
     println!("Average: {:.2}", student.average());
     println!("Grade: {}", student.grade());
